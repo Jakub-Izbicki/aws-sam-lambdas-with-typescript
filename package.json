@@ -1,12 +1,11 @@
 {
-  "name": "typescript-with-npm",
+  "name": "aws-sam-lambdas-with-typescript",
   "version": "0.0.0",
   "description": "",
   "author": "",
-  "type": "module",
   "main": "src/app.ts",
   "scripts": {
-    "start": "tsc",
+    "start": "tsc && node ./dist/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "license": "ISC",
